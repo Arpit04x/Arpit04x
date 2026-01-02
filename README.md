@@ -23,4 +23,4 @@ I am a B.Tech 2nd-year student who enjoys building clean, modern, and user-frien
 src="https://img.shields.io/github/followers/Arpit04x?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a><a href="https://www.x.com/arpit05x" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/twitter/follow/arpit05x?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917"
 /></a>
-### Badges
+
