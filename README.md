@@ -7,7 +7,7 @@ Web developer and Designer
 
 I am a B.Tech 2nd-year student who enjoys building clean, modern, and user-friendly digital experiences. I focus on creating visually appealing interfaces while bringing ideas to life through code. Always learning, experimenting, and improving with every project I work on.
 
-* 🌍  I'm based in India.
+* 🌍  I'm based in India
 * ✉️  You can contact me at [arpit.m9839@gmail.com](mailto:arpit.m9839@gmail.com)
 * 🧠  I'm currently learning data science and machine learning.
 * 👥  I'm looking to collaborate on interesting projects.
