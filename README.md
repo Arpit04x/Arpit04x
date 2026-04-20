@@ -1,16 +1,48 @@
-# React + Vite
+# AdaptiveX – Intelligent Content Delivery Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AdaptiveX is a production-grade React frontend that adapts media quality, layout density, and UX behavior in real time based on device type, network conditions, and user preferences.
 
-Currently, two official plugins are available:
+## Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dark-first premium SaaS UI** with glassmorphism styling
+- **Adaptive intelligence layer** powered by:
+  - `navigator.connection.effectiveType`
+  - device detection (viewport + user agent)
+  - `localStorage` preferences
+- **Real-time adaptation without reloads**
+- **Mode controls**: Performance, Balanced, High Quality, and Auto
+- **Simulate Network toggle**: Slow / Medium / Fast / Auto
+- **Adaptive media module** using responsive images (`srcset`) and simulated video stream profiles
+- **Live system status panel** with network, device, and mode badges
+- **Analytics widget** with estimated data savings, load improvement, and score
+- **Performance techniques**: lazy loading, React code splitting (`React.lazy`), memoized components, and skeleton loaders
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React + Vite
+- Tailwind CSS
+- Framer Motion
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+  components/
+  hooks/
+  pages/
+  utils/
+```
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build & Lint
+
+```bash
+npm run lint
+npm run build
+```
